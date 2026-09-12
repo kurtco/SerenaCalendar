@@ -1,0 +1,47 @@
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# ---- Node / React Native / Expo (mobile/) ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+# CNG / prebuild: ios/ y android/ se generan, no se versionan
+mobile/ios/
+mobile/android/
+*.orig.*
+
+# ---- Secretos / signing / servicios ----
+.env
+.env.*
+*.p12
+*.keystore
+*.jks
+google-services.json
+GoogleService-Info.plist
+
+# ---- Python / uv (backend/) ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# ---- opencode (comandos se versionan; credenciales NO) ----
+.opencode/auth.json
+
+# ---- spec-kit (estado mutable de feature actual) ----
+.specify/feature.json

@@ -1,0 +1,9 @@
+{
+  "name": "serena",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "mobile",
+    "packages/*"
+  ]
+}

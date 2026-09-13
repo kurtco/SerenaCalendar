@@ -112,6 +112,11 @@ Los datos de ciclo menstrual son categoría especial (GDPR art. 9).
 2. No se escribe código de una feature sin spec + plan aprobados.
 3. Esta constitución gobierna todos los artefactos; cualquier conflicto exige
    enmienda con Sync Impact Report y bump de versión.
+4. **Actualización de estado obligatoria:** cada vez que un paso o entregable de
+   una spec se implementa y se verifica exitosamente, se debe actualizar el
+   `Status` de `specs/<feature>/spec.md` describendo qué se probó y en qué
+   entorno (simulador, dispositivo, test, etc.). Una feature no se considera
+   cerrada mientras su spec no refleje el estado real.
 
 ## Alcance por Fases
 

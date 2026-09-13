@@ -4,7 +4,7 @@
 
 **Created**: 2026-09-12
 
-**Status**: Draft
+**Status**: In Progress — US1 boot/onboarding verified on iOS simulator (offline, design-system connection); US2 local persistence (Drizzle + expo-sqlite), field-level AES-256-GCM encryption, and migrations implemented and unit-tested; US3 Clean Architecture boundaries enforced by ESLint; EAS config prepared. EAS build + Apple Developer account deferred (paid). Local `expo run:ios` blocked by environment SDK/simulator mismatch (Xcode SDK 26.5 vs installed iOS 18.3/18.4 runtimes). Pending: `.env.example` and full repository integration test on a compatible device/simulator.
 
 **Input**: User description: "Fundación del alpha MVP: una app instalable en ~10 dispositivos (fuera de tiendas), offline-first, con arquitectura limpia, persistencia local cifrada en reposo y distribución a testers. Es el esqueleto sobre el que se construyen todas las features del alpha."
 

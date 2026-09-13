@@ -2,7 +2,7 @@
 
 **Documento derivado de:** `plan_tracker_menstrual.md`
 **Rol:** Co-Lead Técnico · **Destinatario:** Lead Developer / Product Owner
-**Estado del proyecto:** Greenfield (solo existe el plan, sin código).
+**Estado del proyecto:** Walking skeleton `000-mobile-foundation` en progreso. Consumo del design system (`@repo/ui-native`) verificado en simulador iOS con Expo SDK 57. Persistencia local (Drizzle + expo-sqlite), cifrado field-level AES-256-GCM, migraciones versionadas, Clean Architecture, ESLint boundaries, MMKV/Zustand y configuración EAS implementados. Build EAS + Apple Developer (99 USD) diferidos. `expo run:ios` local bloqueado por incompatibilidad del entorno (Xcode SDK 26.5 vs runtimes iOS 18.3/18.4), no por el código. Pendiente: `.env.example` y tests de integración de repositorios en un simulador/dispositivo compatible.
 
 ---
 
